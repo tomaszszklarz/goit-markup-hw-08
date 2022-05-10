@@ -1,0 +1,121 @@
+.down {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.space {
+  margin-top: 9px;
+}
+.town {
+  margin-top: 20px;
+}
+.header__contact {
+  margin-top: 9px;
+}
+.down {
+  display: flex;
+}
+.socjal {
+  display: flex;
+  padding-right: 10px;
+    &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, 1);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus {
+      background-color: var(--secend-color);
+      }
+    }
+    &__icons {
+    width: 20px;
+    height: 20px;
+    }
+}
+
+
+.joint {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+    &__address {
+    display: flex;
+    margin-top: 20px;
+    }
+}
+
+.sign__text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.172em;
+  text-transform: uppercase;
+}
+.sign__mail {
+  background-color: rgba(47, 48, 58, 1);
+  color: rgba(255, 255, 255, 0.6);
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-top: 20px;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 16px;
+
+  &:hover,
+  &:focus {
+  border: 1px solid var(--secend-color);
+  }
+}
+
+.sign__btn {
+  background-color: var(--secend-color);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875em;
+  display: inline-flex;
+  width: 200px;
+  height: 50px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.newsletter {
+  margin-left: 79px;
+}
+.sign__icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+}
+.logo__text-down {
+  color: white;
+
+  &:hover,
+  &:active {
+  color: var(--secend-color);
+  }
+}
+.address__down {
+  color: white;
+}
