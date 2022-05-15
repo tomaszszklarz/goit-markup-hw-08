@@ -1,0 +1,41 @@
+.working {
+    padding-top: 0;
+        &__head {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.166em;
+        margin-bottom: 30px;
+        }
+        &__list {
+        display: flex;
+        }
+        &__list-item:not(:last-child){
+        margin-right: 30px;
+        }
+}
+
+.working .conteiner {
+    display: flex;
+    align-items: center;
+}
+.what {
+    flex-direction: column;
+}
+.contens {
+    position: relative;
+    overflow: hidden;
+}
+.contens > .contens__item {
+    position: absolute;
+    bottom: 4px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.172em;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: white;
+    width: 100%;
+    text-align: center;
+}

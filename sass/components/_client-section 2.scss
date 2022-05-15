@@ -1,0 +1,40 @@
+.card {
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px; 
+}
+.client .conteiner {
+    display: flex;
+    flex-direction: column;
+}
+.client__header {
+    margin: 0 auto 50px auto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.166em;
+}
+.client__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ad{
+    padding: 18px 32px 14px 32px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    fill: var(--secend-color);
+    border: 1px solid var(--secend-color);
+    cursor: pointer; 
+    }
+        &__icons {
+        width: 106px;
+        height: 60px;
+        }
+}

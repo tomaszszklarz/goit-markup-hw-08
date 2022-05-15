@@ -1,0 +1,52 @@
+.efect .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+}
+.conteiner__head {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 696px;
+}
+
+.efect {
+    display: flex;
+    background-color: #2F303A;
+    background-image:linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),  
+    url(../images/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    align-items: center;
+}
+.conteiner__btn {
+    font-family: var(--secend-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875em;
+    background-color: var(--secend-color);
+    color: white;
+    margin-top: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+
+    &:hover,
+    &:focus,
+    &:active {
+    color: var(--secend-color);
+    cursor: pointer;
+    color: white;  
+    }
+}

@@ -1,0 +1,43 @@
+.filtr .filtr__button {
+    display: flex; 
+    align-content: center;
+    justify-content: center;
+}
+.filtr {
+    padding-bottom: 50px;
+
+    &__list {
+    display: flex;
+    align-items: center;
+    }
+    
+    &__list-item {
+    background: #F5F4FA;
+    border-radius: 4px;
+    }
+    &__list-item:not(:last-child){
+    margin-right: 8px;
+    }
+    &__list-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625em;
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: none;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus,
+        &:active {
+        color: var(--secend-color);
+        cursor: pointer;
+        background-color: #2196F3;
+        color: white;
+        border-radius: 4px;
+        border: none;
+        }
+    }
+}
