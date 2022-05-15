@@ -1,8 +1,35 @@
 .conteiner {
-    width: 1200px;
+    width: 100%;
+    padding: 0 15px;
     margin: 0 auto;
 }
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+
+@media screen and (min-width:480px){
+    .conteiner {
+        max-width: 480px;
+    }
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (min-width:768px){
+    .conteiner {
+        max-width: 768px;
+    }
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (min-width:1200px){
+    .conteiner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
